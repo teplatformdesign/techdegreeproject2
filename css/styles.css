@@ -1,0 +1,16 @@
+ .myname {
+
+   text-align: center;
+
+ }
+
+.profile-image {
+    float: right;
+    display: inline-block;
+    width: 40%;
+
+}
+
+
+
+/* --- media queries ---*/
