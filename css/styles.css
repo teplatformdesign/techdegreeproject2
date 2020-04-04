@@ -1,16 +1,73 @@
- .myname {
 
-   text-align: center;
+* {
+  box-sizing: border-box;
+}
 
+ .container {
+   padding-left: 1em;
+   padding-right: 1em;
+   padding-top: 1.5em;
+   padding-bottom: 1.5em;
  }
+
+header {
+  background-color: #F3F3F3;
+}
+
+h1 {
+  font-size: 45px;
+  text-align: center;
+  margin-top: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.nav {
+  display: inline-block;
+
+}
+
+.nav li {
+  display: inline-block;
+
+}
+
+body {
+  background-color: #FBFBFB;
+}
+
+
+img {
+  display: inline-block;
+  width: 45%;
+
+}
+
+footer {
+  border-top: Solid 1px grey;
+  width: 90%;
+  margin: 0 auto;
+}
 
 .profile-image {
     float: right;
     display: inline-block;
     width: 40%;
+    margin-bottom: 1em;
+    margin-left: 1em;
 
 }
 
-
+.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+}
 
 /* --- media queries ---*/
