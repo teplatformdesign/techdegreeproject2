@@ -24,8 +24,16 @@ li, h2 {
   font-size: 18px;
 }
 
+h3 {
+  font-weight: 600;
+}
+
 #top {
 text-transform: uppercase;
+}
+
+.top {
+  margin: 16px 0;
 }
 
 a {
@@ -36,6 +44,11 @@ a:hover {
 text-decoration: none;
 color: purple;
 }
+
+.profile-pic {
+  padding-top: 50px;
+}
+
 .title {
   font-size: 30px;
 }
@@ -47,4 +60,25 @@ color: purple;
 .portfolio-container {
     padding-top: 10%;
     padding-bottom: 10%;
+}
+
+#portfolio {
+  padding: 40px;
+}
+
+.project {
+    padding-bottom: 25px;
+}
+
+.contact-info {
+    font-weight: 700;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 700;
+  border-top: solid lightgrey 1px;
+  margin-top: 100px;
 }
