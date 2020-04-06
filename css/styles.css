@@ -1,75 +1,50 @@
-
-* {
-  box-sizing: border-box;
-}
-
- .container {
-   padding-left: 1em;
-   padding-right: 1em;
-   padding-top: 1.5em;
-   padding-bottom: 1.5em;
- }
-
-header {
-  background-color: #F3F3F3;
-}
-
-h1 {
-  font-size: 45px;
+*{
+  font-family:'Open Sans', sans-serif;
   text-align: center;
-  margin-top: 0;
-  padding-top: 1em;
-}
-
-h2 {
-  text-align: center;
-}
-
-h3 {
-  text-align: center;
-}
-
-.nav {
-  display: inline-block;
-
-}
-
-.nav li {
-  display: inline-block;
-
+  color:rgb(88, 88, 88)
 }
 
 body {
-  background-color: #FBFBFB;
+  padding: 5%;
 }
-
 
 img {
-  display: inline-block;
-  width: 50%;
-  float: left;
+  max-width: 100%;
 }
 
-
-footer {
-  border-top: Solid 1px grey;
-  width: 90%;
-  margin: 0 auto;
+ul {
+  padding-left:0;
 }
 
-.profile-image {
-    float: right;
-    display: inline-block;
-    width: 40%;
-    margin-bottom: 1em;
-    margin-left: 1em;
-
+li, h2 {
+  list-style: none;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 15px;
+  font-size: 18px;
 }
 
-.clearfix::after {
-		content: " ";
-		display: table;
-		clear: both;
+#top {
+text-transform: uppercase;
 }
 
-/* --- media queries ---*/
+a {
+    text-decoration: none;
+}
+
+a:hover {
+text-decoration: none;
+color: purple;
+}
+.title {
+  font-size: 30px;
+}
+
+.bio {
+  color:rgb(119, 119, 119)
+}
+
+.portfolio-container {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
