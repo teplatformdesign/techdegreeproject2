@@ -3,8 +3,11 @@
   text-align: center;
   color:rgb(88, 88, 88);
   box-sizing: border-box;
+  overflow: auto;
 }
-
+::-webkit-scrollbar {
+    display: none;
+}
 .nav-footer {
   display: none;
 }
@@ -42,7 +45,7 @@ html, body {
 }
 .nav li a{
   text-decoration: none;
-  padding: 15px;
+  display: block;
 }
 
 .nav li a:hover{
@@ -94,32 +97,84 @@ h2 {
 footer {
   margin: 25px;
   border-top: 1px solid lightgrey;
-  padding-top: 25px;
-  margin-bottom: 0;
 }
 
 .footer-nav li a {
   text-decoration: none;
   text-transform: uppercase;
+  display: inline;
+
 }
 
-.name strong {
-  display: inline;
+.name {
+  display: inline-block;
   font-weight: bold;
   float: left;
-  padding-bottom: 25px;
 
 }
 
-.top strong {
-  display: inline;
+
+
+.top {
+  display: inline-block;
   text-decoration: none;
   float: right;
-  padding-bottom: 25px;
+  margin: 16px 0;
+  font-weight: bold;
+}
+.top strong:hover{
+    color: orange;
 }
 
-.clearfix::after {
-		content: " ";
-		display: table;
-		clear: both;
+  @media (min-width: 768px) {
+
+    .nav {
+      display: inline-block;
+    }
+
+    .nav li {
+      margin: 0;
+      display: inline-block;
+    }
+
+
+    .bio {
+      padding: 8px 10px;
+    }
+
+    .profile-pic {
+    float:right;
+    width: 40%;
+    margin: 25px;
+    }
+
+  .top strong{
+    display:none;
+  }
+  .nav-footer {
+    display: inline;
+    text-decoration: none;
+    float: right;
+    padding-bottom: 25px;
+  }
+  .nav-footer li {
+    display: inline;
+    text-decoration: none;
+  }
+  .nav-footer li a {
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .name {
+    display: inline;
+    float: left;
+  }
+
+
+  .clearfix::after {
+  		content: " ";
+  		display: table;
+  		clear: both;
+  }
 }
