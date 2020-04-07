@@ -1,7 +1,8 @@
 *{
   font-family:'Open Sans', sans-serif;
   text-align: center;
-  color:rgb(88, 88, 88)
+  color:rgb(88, 88, 88);
+  box-sizing: border-box;
 }
 
 .nav-footer {
@@ -22,6 +23,9 @@
 
 body {
   background-color: #FAFAFA;
+}
+html, body {
+  height: 100%;
 }
 
 .portfolio-container {
@@ -67,7 +71,8 @@ h2 {
 }
 
 .portfolio-text {
-  margin-bottom: 45px;
+  margin-bottom: 40px;
+  line-height: 1.6;
 }
 
 .contact-container {
@@ -89,4 +94,32 @@ h2 {
 footer {
   margin: 25px;
   border-top: 1px solid lightgrey;
+  padding-top: 25px;
+  margin-bottom: 0;
+}
+
+.footer-nav li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.name strong {
+  display: inline;
+  font-weight: bold;
+  float: left;
+  padding-bottom: 25px;
+
+}
+
+.top strong {
+  display: inline;
+  text-decoration: none;
+  float: right;
+  padding-bottom: 25px;
+}
+
+.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
 }
