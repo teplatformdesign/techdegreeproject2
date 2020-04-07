@@ -158,3 +158,20 @@ footer {
     padding-left: 20px;
   }
 }
+
+@media (min-width:1024px) {
+  header {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .nav {
+    margin: initial;
+    align-items: center;
+  }
+
+  .bio {
+      font-size: 1.75em;
+  }
+
+}
