@@ -213,6 +213,11 @@ footer {
     float: right;
     margin: 16px 0;
   }
+
+  .nav-bottom {
+    display: inline-block;
+  }
+
   .nav-footer li {
     display: inline;
     text-decoration: none;
@@ -224,6 +229,11 @@ footer {
     text-transform: uppercase;
   }
 
+.footer-text {
+  display: inline-block;
+  float: left;
+}
+
   .name {
     display: inline;
     float: left;
@@ -233,6 +243,8 @@ footer {
     padding: 0px 50px 10px 50px;
     font-size: 22px;
 }
+
+
 
 }
 
