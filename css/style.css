@@ -19,9 +19,7 @@
   width: 100%
 }
 
-.project {
-    height: 480px;
-}
+
 
 .profile-pic {
   width: 70%;
@@ -123,19 +121,23 @@ footer {
   display: inline-block;
   font-weight: bold;
   float: left;
+  padding-bottom: 15px;
 
 }
-
-
 
 .top {
   display: inline-block;
   text-decoration: none;
   float: right;
-  margin: 16px 0;
+  margin: 16px 15px;
   font-weight: bold;
+  padding-bottom: 15px;
 }
 .top:hover{
+    color: orange;
+}
+
+.nav-footer li a:hover{
     color: orange;
 }
 
@@ -171,7 +173,7 @@ footer {
 
 
     .bio {
-      padding: 10px 20px;
+      padding: 30px 20px;
       text-align: left;
       font-size: 20px;
       font-weight: lighter;
@@ -200,7 +202,7 @@ footer {
     width: 50%;
     padding-left: 5px;
     padding-right: 5px;
-    height: 580px;
+    height: 480px;
   }
 
 
@@ -212,7 +214,7 @@ footer {
     display: none;
   }
   footer {
-    margin: 25px 30px 60px 30px;
+    margin: 25px 30px 80px 30px;
     padding-top: 10px;
   }
   .nav-footer {
@@ -261,7 +263,9 @@ footer {
   .project {
     float: left;
     width: 33.33%;
-    height: 580px;
+    height: 520px;
+    padding-left: 25px;
+    padding-right: 25px;
 
   }
 
@@ -293,7 +297,48 @@ footer {
     transition-duration: .5s;
   }
 
+  .portfolio-pic {
+    transition-duration: .5s;
+  }
+
+  .portfolio-pic:hover {
+      transform: scale(1.1);
+  }
+
   .profile-pic:hover {
     transform: scale(1.1);
+  }
+
+  .bio {
+    padding: 30px 20px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+
+  header {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .section-1 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .skills-container {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  footer {
+    margin: 25px 55px 80px 55px;
+    padding-top: 10px;
+  }
+
+  .profile-pic {
+  float:right;
+  width: 25%;
+  margin: 25px;
+  padding: 5px;
   }
 }
