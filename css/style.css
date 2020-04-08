@@ -230,6 +230,7 @@ footer {
 
   .nav-bottom {
     display: inline-block;
+    float: right;
   }
 
   .nav-footer li {
