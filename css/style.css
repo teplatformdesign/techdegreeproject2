@@ -19,6 +19,10 @@
   width: 100%
 }
 
+figcaption {
+  display: none;
+  position: absolute;
+}
 
 
 .profile-pic {
@@ -293,9 +297,12 @@ footer {
     font-size: larger;
   }
 
-  .profile-pic {
-    transition-duration: .5s;
+
+  .profile-pic:hover {
+
   }
+
+
 
   .portfolio-pic {
     transition-duration: .5s;
@@ -305,9 +312,6 @@ footer {
       transform: scale(1.1);
   }
 
-  .profile-pic:hover {
-    transform: scale(1.1);
-  }
 
   .bio {
     padding: 30px 20px;
@@ -341,4 +345,7 @@ footer {
   margin: 25px;
   padding: 5px;
   }
+
+
+
 }
