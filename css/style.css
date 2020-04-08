@@ -3,17 +3,24 @@
   text-align: center;
   color:rgb(88, 88, 88);
   box-sizing: border-box;
-  overflow: auto;
 }
-::-webkit-scrollbar {
-    display: none;
-}
+
+.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+
 .nav-footer {
   display: none;
 }
 
 .portfolio-pic {
   width: 100%
+}
+
+.project {
+    height: 480px;
 }
 
 .profile-pic {
@@ -193,6 +200,7 @@ footer {
     width: 50%;
     padding-left: 5px;
     padding-right: 5px;
+    height: 580px;
   }
 
 
@@ -253,6 +261,7 @@ footer {
   .project {
     float: left;
     width: 33.33%;
+    height: 580px;
 
   }
 
