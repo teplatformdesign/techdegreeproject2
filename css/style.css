@@ -132,6 +132,23 @@ footer {
     color: orange;
 }
 
+
+
+.tech {
+  width:50%;
+  display: inline;
+}
+
+.skills-container {
+  border: 2px dotted orange;
+  padding-bottom: 20px;
+  margin: 20px 25px 0px 25px;
+}
+
+.contact-text {
+    color: orange;
+}
+
   @media (min-width: 768px) {
 
 
@@ -177,18 +194,11 @@ footer {
     padding-left: 5px;
     padding-right: 5px;
   }
-  .porject:nth-child(odd) {
 
 
+  .skills-container {
+    margin: 10px 30px 0px 25px;
   }
-
-  .project:nth-child(even) {
-
-  }
-
-
-  .portfolio-container {
- }
 
   .top {
     display: none;
@@ -262,5 +272,13 @@ footer {
   .name {
     margin-top: 40px;
     font-size: larger;
+  }
+
+  .profile-pic {
+    transition-duration: .5s;
+  }
+
+  .profile-pic:hover {
+    transform: scale(1.1);
   }
 }
