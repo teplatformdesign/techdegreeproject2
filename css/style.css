@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+a:hover {
+ color: orange;
+}
+
 .clearfix::after {
 		content: " ";
 		display: table;
