@@ -342,6 +342,10 @@ footer {
   padding: 5px;
   }
 
+  .wrapper {
+   max-width: 1400px; /* Only let the main content go 1400px and no wider */
+   margin: 0 auto; /* Centers the main content */
+  }
 
 
 }
